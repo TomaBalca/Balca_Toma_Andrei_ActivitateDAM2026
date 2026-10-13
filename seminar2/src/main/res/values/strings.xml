@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Seminar2</string>
     <string name="deschide_activitate">Deschide activitate</string>
+    <string name="inapoi">inapoi</string>
 </resources>
