@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Balca_Toma_ActivitateDAM2026</string>
+    <string name="apasa">Apasa</string>
+    <string name="exemplu_ion">Exemplu: Ion</string>
 </resources>
