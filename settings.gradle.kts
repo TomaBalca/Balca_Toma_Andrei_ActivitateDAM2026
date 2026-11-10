@@ -19,6 +19,7 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+
     }
 }
 
@@ -26,3 +27,9 @@ rootProject.name = "Balca_Toma_ActivitateDAM2026"
 include(":app")
 include(":seminar2")
 include(":seminarul_4")
+include(":seminarul_5")
+include(":seminarul_6")
+include(":seminarul_7");
+
+
+

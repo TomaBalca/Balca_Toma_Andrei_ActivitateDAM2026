@@ -44,5 +44,14 @@ public class ListaButoi extends AppCompatActivity {
                 Toast.makeText(getApplicationContext(), butoi.toString(), Toast.LENGTH_SHORT).show();
             }
         });
+
+        lv.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
+            @Override
+            public boolean onItemLongClick(AdapterView<?> parent, View view, int position, long id) {
+                lista.remove(position);
+                adapter.notifyDataSetChanged();
+                return true;
+            }
+        });
     }
 }
